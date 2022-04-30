@@ -71,7 +71,7 @@ if (numberZ % 2 === 0){
     document.getElementById("even").innerHTML = "Có tổng cộng " + countEven + " số chẵn"
     document.getElementById("odd").innerHTML = "Có tổng cộng " + countOdd + " số lẻ"
 }*/
-/*BÀI 3: Hàm này được gắn vào nút button
+/*Cách 2
  Input: 
  1. Tạo và lấy giá trị biến khi người dùng nhập 3 số nguyên
  2. Tạo biến countEven là biến đếm số chẵn và gán giá trị = 0

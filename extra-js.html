@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra-JS-B14</title>
+</head>
+<body>
+    <!-- BÀI 1: -->
+    <div class="container"> 
+        <p>BÀI 1</p>
+            <p>Xuất kết quả ngày hôm qua và ngày mai</p>
+            <input id ="D" type="number" placeholder="Nhập ngày">
+            <input id ="M" type="number" placeholder="Nhập tháng">
+            <input id ="Y" type="number" placeholder="Nhập năm">
+            <br><br>
+            <button onclick="submit1a()">Ngày hôm qua</button>
+            <button onclick="submit1b()">Ngày mai</button>
+        <div id="result1" style="display:none">
+            <p id="date"></p>
+        </div>
+    </div>  
+<br><br><br>
+ <!-- BÀI 2: -->
+    <div class="container"> 
+        <p>BÀI 2</p>
+            <p>Tháng này có bao nhiêu ngày?</p>
+            <input id ="month" type="number" placeholder="Nhập tháng">
+            <input id ="year" type="number" placeholder="Nhập năm">
+            <br><br>
+            <button onclick="submit2()">Xem nào!</button>
+        <div id="result2" style="display:none">
+            <p id="dayAmount"></p>
+        </div>
+    </div>  
+<br><br><br>
+
+    <script src="./extra-js.js">
+
+    </script>
+</body>
+</html>
